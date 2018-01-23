@@ -3,13 +3,6 @@ import cmath
 
 b=10**(-20)
 c=4.0
-
-
-def machine_eps():
-    x=1.0
-    while((1+x)!=1):
-        x=x/2
-    return x
     
 #Функция определения порядка числа 
 

@@ -52,7 +52,7 @@ def taylor(c,b):
 
 
 #Если порядок отношения b^2 к с меньше порядка машинного эпсилон-1, то все хорошо    
-if(abs(power(b)**2-power(c))<=15):
+if(abs(power(abs(b))**2-power(abs(c)))<=15):
     D=b*b-4*c
     if(D>=0):
       x1=(-b+math.sqrt(D))/2

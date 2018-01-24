@@ -3,6 +3,15 @@ import cmath
 
 b=10**(-20)
 c=4.0
+
+if(b==0):
+    if(c>=0):
+        print(math.sqrt(c))
+        print(-math.sqrt(c))
+    else:
+        print(cmath.sqrt(c))
+        print(-cmath.sqrt(c))
+    exit()
     
 #Функция определения порядка числа 
 

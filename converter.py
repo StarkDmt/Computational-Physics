@@ -43,7 +43,7 @@ def ds(n):
   elif (n>=900):
     res+='CM'
   else:
-    res+='C'*(n/100)
+    res+='C'*(n//100)
   n=n%100
   res+=ls(n)
   return res
